@@ -13,6 +13,14 @@ const nextConfig: NextConfig = {
     serverActions: {
       bodySizeLimit: '100MB',
     },
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
   },
 
   images: {

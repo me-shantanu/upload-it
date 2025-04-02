@@ -1,8 +1,8 @@
 import Search from './Search'
-import Image from 'next/image'
 import { Button } from './ui/button'
 import FileUploader from './FileUploader'
 import { signOutUser } from '@/src/lib/actions/user.action'
+import LogOutIcon from '@/src/assets/icons/logout.svg'
 
 const Header = ({ userId, accountId }: { userId: string; accountId: string }) => {
   return (
@@ -17,13 +17,7 @@ const Header = ({ userId, accountId }: { userId: string; accountId: string }) =>
           }}
         >
           <Button type='submit' className='sign-out-button'>
-            <Image
-              src='/assets/icons/logout.svg'
-              alt='logo'
-              width={24}
-              height={24}
-              className='w-6'
-            />
+            <LogOutIcon className='stroke-brand scale-150' />
           </Button>
         </form>
       </div>

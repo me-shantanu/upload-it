@@ -5,6 +5,8 @@ import Image from 'next/image'
 import { cn } from '@/src/lib/utils'
 import { navItems } from '@/src/constants'
 import { usePathname } from 'next/navigation'
+import Logo from '@/src/assets/icons/logo-full-brand.svg'
+import LogoMobile from '@/src/assets/icons/logo-brand.svg'
 
 interface Props {
   fullName: string
@@ -18,20 +20,8 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
   return (
     <aside className='sidebar'>
       <Link href='/'>
-        <Image
-          alt='logo'
-          height={50}
-          width={160}
-          className='hidden h-auto lg:block'
-          src='/assets/icons/logo-full-brand.svg'
-        />
-        <Image
-          alt='logo'
-          width={52}
-          height={52}
-          className='lg:hidden'
-          src='/assets/icons/logo-brand.svg'
-        />
+        <Logo className='fill-brand hidden h-auto lg:block' />
+        <LogoMobile className='fill-brand lg:hidden' />
       </Link>
 
       <nav className='sidebar-nav'>

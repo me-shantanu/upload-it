@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand-color: 250, 114, 117;
+  --brand-color-light: 234, 99, 101;
+}
+
+.logo-svg {
+  color: var(--brand-color); /* Your CSS variable */
+}
+
 @layer base {
   * {
     @apply scroll-smooth;
@@ -340,7 +349,7 @@
 
   /* Mobile Navigation */
   .mobile-header {
-    @apply flex h-[60px] justify-between px-5 sm:hidden !important;
+    @apply flex h-[60px] items-center justify-between px-5 sm:hidden !important;
   }
   .header-user {
     @apply my-3 flex items-center gap-2 rounded-full p-1 text-light-100 sm:justify-center sm:bg-brand/10 lg:justify-start lg:p-3 !important;

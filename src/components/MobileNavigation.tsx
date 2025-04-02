@@ -16,6 +16,8 @@ import { Separator } from './ui/separator'
 import { usePathname } from 'next/navigation'
 import { Button } from '@/src/components/ui/button'
 import { signOutUser } from '@/src/lib/actions/user.action'
+import LogOutIcon from '@/src/assets/icons/logout.svg'
+import Logo from '@/src/assets/icons/logo-full-brand.svg'
 
 interface Props {
   $id: string
@@ -30,13 +32,14 @@ const MobileNavigation = ({ $id: ownerId, accountId, fullName, avatar, email }: 
   const pathname = usePathname()
   return (
     <header className='mobile-header'>
-      <Image
+      <Logo className='fill-brand scale-90' />
+      {/* <Image
         src='/assets/icons/logo-full-brand.svg'
         alt='logo'
         width={120}
         height={52}
         className='h-auto'
-      />
+      /> */}
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger>
           <Image src='/assets/icons/menu.svg' alt='Search' width={30} height={30} />
@@ -84,7 +87,7 @@ const MobileNavigation = ({ $id: ownerId, accountId, fullName, avatar, email }: 
               className='mobile-sign-out-button'
               onClick={async () => await signOutUser()}
             >
-              <Image src='/assets/icons/logout.svg' alt='logo' width={24} height={24} />
+              <LogOutIcon className='stroke-brand scale-150' />
               <p>Logout</p>
             </Button>
           </div>
