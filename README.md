@@ -1,5 +1,5 @@
 <div align="center">
- <h1>Store It</h1>
+ <h1>Upload It</h1>
   <br />
 
   <div>
@@ -20,7 +20,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🔗 [Screenshots](#screenshots)
-4. 🤸 [Local Setup](#setup)
+5. 🤸 [Local Setup](#setup)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -59,11 +59,13 @@ and many more, including the latest **React 19**, **Next.js 15** and **Appwrite*
 reusability
 
 ## <a name="screenshots">🔗 Screenshots </a>
+
 ![homepage](/public/screenshots/homepage.png)
 ![dashboard](/public/screenshots/dashboard.png)
 ![documents-page](/public/screenshots/documents-page.png)
 
 ### Screenshots For Small Screens :
+
 ![mobile-homepage](/public/screenshots/mobile-homepage.png)
 ![mobile-dashboard](/public/screenshots/mobile-dashboard.png)
 ![mobile-navigation](/public/screenshots/mobile-navigation.png)
@@ -95,23 +97,6 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
-NEXT_PUBLIC_APPWRITE_PROJECT=""
-NEXT_PUBLIC_APPWRITE_DATABASE=""
-NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_BUCKET=""
-NEXT_APPWRITE_KEY=""
-```
-
-Replace the values with your actual Appwrite credentials. You can obtain these credentials by signing up &
-creating a new project on the [Appwrite website](https://appwrite.io/).
-
 **Running the Project**
 
 ```bash
@@ -119,8 +104,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-## Credits
-
-- This project is done with the help of this video on youtube : [Video Link](https://youtu.be/lie0cr3wESQ?si=vR0XD1NtU-_iLZAi)
-- You can check out his channel for more such videos [Javascript Mastery](https://www.youtube.com/@javascriptmastery)
