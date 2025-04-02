@@ -17,6 +17,8 @@
 /.next/
 /out/
 
+__tests__/
+
 # production
 /build
 
