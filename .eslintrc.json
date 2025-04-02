@@ -4,8 +4,13 @@
     "next/typescript",
     "standard",
     "plugin:tailwindcss/recommended",
-    "prettier"
+    "prettier",
+    "plugin:jest/recommended",
+    "plugin:testing-library/react"
   ],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "no-undef": "off"
   }

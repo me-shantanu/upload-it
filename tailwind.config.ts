@@ -7,6 +7,13 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  compilerOptions: {
+    baseUrl: '.',
+    paths: {
+      '@/*': ['src/*'],
+      'src/*': ['src/*'],
+    },
+  },
   theme: {
     extend: {
       colors: {
