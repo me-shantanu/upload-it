@@ -1,4 +1,4 @@
-import ColorSwitcher from '@/src/components/ColorSwitcher'
+// import ColorSwitcher from '@/src/components/ColorSwitcher'
 import Image from 'next/image'
 import { ReactNode } from 'react'
 
@@ -39,7 +39,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
         </div>
         {children}
       </section>
-      <ColorSwitcher />
+      {/* <ColorSwitcher /> */}
     </div>
   )
 }
