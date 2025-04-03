@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --brand-color: 250, 114, 117;
+  --brand-color: 139, 92, 246;
 }
 
 @layer base {
