@@ -19,7 +19,6 @@ const config: Config = {
       colors: {
         brand: {
           DEFAULT: 'rgb(var(--brand-color), <alpha-value>)',
-          100: 'rgb(var(--brand-color-light), <alpha-value>)',
         },
         red: '#FF7474',
         error: '#b80000',

@@ -1,6 +1,9 @@
-import ColorSwitcher from '@/src/components/ColorSwitcher'
-import Image from 'next/image'
 import { ReactNode } from 'react'
+import Image from 'next/image'
+
+import ColorSwitcher from '@/src/components/ColorSwitcher'
+import Logo from '@/src/assets/icons/logo-full-brand.svg'
+import AuthLotties from '@/src/components/AuthLotties'
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
@@ -18,24 +21,12 @@ const Layout = ({ children }: { children: ReactNode }) => {
             <h1 className='h1'>Manage your files the best way</h1>
             <p className='body-1'>This is the place you can store all your documents.</p>
           </div>
-          <Image
-            src='/assets/images/files.png'
-            alt='Files'
-            width={342}
-            height={342}
-            className='transition-all hover:rotate-2 hover:scale-105'
-          />
+          <AuthLotties />
         </div>
       </section>
       <section className='flex flex-1 flex-col items-center bg-white p-4 py-10 lg:justify-center lg:p-10 lg:py-0'>
         <div className='mb-16 lg:hidden'>
-          <Image
-            src='/assets/icons/logo-full-brand.svg'
-            alt='logo'
-            width={224}
-            height={82}
-            className='h-auto w-[200px] lg:w-[250px]'
-          />
+          <Logo className='fill-brand scale-150' />
         </div>
         {children}
       </section>
