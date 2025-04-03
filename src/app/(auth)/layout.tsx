@@ -1,6 +1,5 @@
 import { ReactNode } from 'react'
 import Image from 'next/image'
-
 import ColorSwitcher from '@/src/components/ColorSwitcher'
 import Logo from '@/src/assets/icons/logo-full-brand.svg'
 import AuthLotties from '@/src/components/AuthLotties'
