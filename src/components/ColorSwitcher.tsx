@@ -26,7 +26,7 @@ export default function ColorSwitcher() {
     <div className='absolute bottom-5 right-5 z-50'>
       <Popover>
         <PopoverTrigger asChild>
-          <Button variant='outline' className='rounded-full p-2'>
+          <Button variant='outline' className='rounded-full p-2' aria-label='Open color switcher'>
             <Settings className='w-5 h-5' />
           </Button>
         </PopoverTrigger>

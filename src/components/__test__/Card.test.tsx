@@ -1,15 +1,17 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react/display-name */
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import Card from '../Card'
 import { Models } from 'node-appwrite'
 
-jest.mock('next/link', () => ({ children, ...props }) => {
+jest.mock('next/link', () => ({ children, ...props }: any) => {
   return <a {...props}>{children}</a>
 })
 
 jest.mock('@/components/Thumbnail', () => () => <div data-testid='thumbnail' />)
 jest.mock('@/components/ActionDropdown', () => () => <div data-testid='action-dropdown' />)
-jest.mock('@/components/FormattedDateTime', () => ({ date }) => (
+jest.mock('@/components/FormattedDateTime', () => ({ date }: { date: any }) => (
   <div data-testid='formatted-date'>{date}</div>
 ))
 

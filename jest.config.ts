@@ -5,15 +5,16 @@ const createJestConfig = nextJest({ dir: './' })
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1', // Ensure alias resolution
-    '^src/(.*)$': '<rootDir>/src/$1', // Explicit mapping for `src/`
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '^src/(.*)$': '<rootDir>/src/$1',
     '\\.(css|scss|sass)$': 'identity-obj-proxy',
   },
   testEnvironment: 'jest-environment-jsdom',
   transform: {
-    '^.+\\.(ts|tsx)?$': 'ts-jest',
+    '^.+\\.(ts|tsx|js|jsx)$': 'babel-jest',
   },
-  moduleDirectories: ['node_modules', '<rootDir>/src'], // Ensure Jest looks into src/
+  transformIgnorePatterns: ['/node_modules/(?!(node-fetch-native-with-agent)/)'],
+  moduleDirectories: ['node_modules', '<rootDir>/src'],
 }
 
 export default createJestConfig(customJestConfig)
