@@ -77,10 +77,9 @@
 >   ![Dashboard Feature](./public/screenshots/dashboard.png)
 > - Responsive Design
 
-<video width="100%" controls>
-  <source src="./public/screenshots/responsive.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/5a8c35cf-75ad-4d42-9e35-bb7aee6f9ac1
+
 
 ---
 
