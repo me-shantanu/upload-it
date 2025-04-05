@@ -76,9 +76,10 @@
 > - Dashboard with file stats
 >   ![Dashboard Feature](./public/screenshots/dashboard.png)
 > - Responsive Design
->   ![Responsive Design](./public/screenshots/responsive.mov)
+>   ![Responsive Design](./public/screenshots/responsive.mp4)
 
 ---
+
 ## 📈 Performance
 
 **Lighthouse Audit Scores:**
