@@ -3,7 +3,7 @@
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="react"/>
+    <img  src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="react"/>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src ="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="shadcn/ui"/>
@@ -19,8 +19,7 @@
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4. 🔗 [Screenshots](#screenshots)
-5. 🤸 [Local Setup](#setup)
+4. 🤸 [Local Setup](#setup)
 
 ## <a name="introduction">🤖 Introduction</a>
 

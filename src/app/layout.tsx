@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
+import NextTopLoader from 'nextjs-toploader'
 import './globals.css'
 import { ReactNode } from 'react'
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${poppins.variable} font-poppins antialiased`} cz-shortcut-listen='true'>
+        <NextTopLoader color='rgb(var(--brand-color))' />
         {children}
       </body>
     </html>

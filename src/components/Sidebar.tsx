@@ -30,7 +30,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
               <li className={cn('sidebar-nav-item', pathname === url && 'shad-active')}>
                 <Image
                   src={icon}
-                  alt={name}
+                  alt={`${name} icon images`}
                   width={24}
                   height={24}
                   className={cn('nav-icon', pathname === url && 'nav-icon-active')}
