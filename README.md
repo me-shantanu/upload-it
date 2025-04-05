@@ -75,6 +75,8 @@
 >   ![Dashboard](./public/screenshots/dashbord.png)
 > - Dashboard with file stats
 >   ![Dashboard Feature](./public/screenshots/dashboard.png)
+> - Responsive Design
+>   ![Responsive Design](./public/screenshots/responsive.mov)
 
 ---
 ## 📈 Performance
