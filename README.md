@@ -1,93 +1,159 @@
+---
 <div align="center">
- <h1>Upload It</h1>
-  <br />
-
-  <div>
-    <img  src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="react"/>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src ="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="shadcn/ui"/>
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
-  </div>
-
+<h1>Upload It</h1>
+<br />
+<div>
+<img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="React" />
+<img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logo=nextdotjs&logoColor=white&color=000000" alt="Next.js" />
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="Shadcn UI" />
+<img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+<img src="https://img.shields.io/badge/-Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white" alt="Appwrite" />
+</div>
 <h3 align="center">Storage and File Sharing Platform</h3>
 </div>
+---
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Local Setup](#setup)
+1. [Introduction](#introduction)
+2. [Live Demo](#live-demo)
+3. [Tech Stack](#tech-stack)
+4. [Features](#features)
+5. [Screenshots](#screenshots)
+6. [Performance](#performance)
+7. [Video Walkthrough](#video-walkthrough)
+8. [Local Setup](#local-setup)
+9. [Testing](#testing)
+10. [Developer](#developer)
 
-## <a name="introduction">🤖 Introduction</a>
+---
 
-A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.
+## 🤖 Introduction
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+**Upload It** is a modern storage management and file sharing platform that allows users to upload, manage, and share files easily. Built using the latest technologies like React 19, Next.js 15, Appwrite, TailwindCSS, and ShadCN UI, it offers a powerful yet elegant user experience.
+
+---
+
+## 🌐 Live Demo
+
+- **Live URL**: [https://upload-it-beta.vercel.app](https://upload-it-beta.vercel.app/)
+- **GitHub Repo**: [https://github.com/me-shantanu/upload-it](https://github.com/me-shantanu/upload-it)
+
+---
+
+## ⚙️ Tech Stack
 
 - React 19
 - Next.js 15
 - Appwrite
 - TailwindCSS
-- ShadCN
+- ShadCN UI
 - TypeScript
+- Jest + React Testing Library
 
-## <a name="features">🔋 Features</a>
+---
 
-👉 **User Authentication with Appwrite**: Implement signup, login, and logout functionality using Appwrite's authentication system.
+## 🔋 Features
 
-👉 **FIle Uploads**: Effortlessly upload a variety of file types, including documents, images, videos, and audio, ensuring all your important data.
+- User Authentication with Appwrite
+- File Upload (documents, images, videos, audio)
+- View, Rename, and Delete Files
+- File Download & Preview in New Tab
+- Share Files via Unique Link
+- Dashboard with Storage Stats
+- Global File Search
+- Sorting by Name, Size, or Date
+- Fully Responsive UI
 
-👉 **View and Manage Files**: Users can browse through their uploaded files stored in Appwrite storage, view on a new tab, rename file or delete.
+---
 
-👉 **Download Files**: Users can download their uploaded files giving them instant access to essential documents.
+## 🖼️ Screenshots
 
-👉 **File Sharing**: Users can easily share their uploaded files with others, enabling collaboration and easy access to important content.
+> - Login / Signup screen  
+>   ![Login](./public/screenshots/feature.png) > ![Sign Up](./public/screenshots/signup.png)
+> - File Upload screen
+>   ![Dashboard](./public/screenshots/dashbord.png)
+> - Dashboard with file stats
+>   ![Dashboard Feature](./public/screenshots/dashboard.png)
 
-👉 **Dashboard**: Gain insights at a glance with a dynamic dashboard that showcases total and consumed storage, recent uploads, and a summary of files grouped by type.
+## 📈 Performance
 
-👉 **Global Search**: Users can quickly find files and shared content across the platform with a robust global search feature.
+**Lighthouse Audit Scores:**
 
-👉 **Sorting Options**: Organize files efficiently by sorting them by date, name, or size, making file management a breeze.
+| Platform | Performance | Accessibility | Best Practices | SEO |
+| -------- | ----------- | ------------- | -------------- | --- |
+| Mobile   | 99          | 91            | 96             | 92  |
+| Desktop  | 99          | 100           | 96             | 91  |
 
-👉 **Modern Responsive Design**: A fresh and minimalist UI that emphasizes usability, ensuring a clean aesthetic across all devices.
+**Highlights**:
 
-and many more, including the latest **React 19**, **Next.js 15** and **Appwrite** features alongside code architecture and
-reusability
+- Lazy Loading & Code Splitting
+- Compressed Images
+- Optimized Next.js Configuration
+- Semantic HTML & Accessibility Tags
 
-## <a name="setup">🤸 Local Setup</a>
+> A full Lighthouse report PDF is available in the `docs/` folder or can be reproduced using Chrome DevTools.
 
-Follow these steps to set up the project locally on your machine.
+---
 
-**Prerequisites**
+## 🎥 Video Walkthrough
 
-Make sure you have the following installed on your machine:
+A short video demo walking through the app, major features, and code structure.
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
+**Watch here:**  
+[https://youtu.be/your-demo-link](https://youtu.be/your-demo-link)
+
+---
+
+## 🤸 Local Setup
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
 
-**Cloning the Repository**
-
-```
-git clone https://github.com/aditya-narayan-sahoo/store-it.git
-cd store-it
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```
-npm install
-```
-
-**Running the Project**
+### Getting Started
 
 ```bash
+git clone https://github.com/meshantanu/upload-it.git
+cd upload-it
+npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+> Appwrite configuration instructions are provided in `.env.example`.
+
+---
+
+## 🧪 Testing
+
+Unit tests are written using **Jest** and **React Testing Library**.
+
+### Run Tests
+
+```bash
+npm run test
+```
+
+### Test Coverage
+
+- Core UI components (UploadForm, FileCard, FileList)
+- Search and filter logic
+- Auth flow handling
+
+> Test coverage summary will appear in the terminal and can be exported using `--coverage`.
+
+---
+
+## 👨‍💻 Developer
+
+**Shantanu Mishra**
+
+- **Email**: shantmiitanphy@gmail.com
+- **LinkedIn**: [https://www.linkedin.com/in/meshantanumishra/](https://www.linkedin.com/in/meshantanumishra/)
+
+---
