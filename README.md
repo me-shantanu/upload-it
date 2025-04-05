@@ -76,7 +76,11 @@
 > - Dashboard with file stats
 >   ![Dashboard Feature](./public/screenshots/dashboard.png)
 > - Responsive Design
->   ![Responsive Design](./public/screenshots/responsive.mp4)
+
+<video width="100%" controls>
+  <source src="./public/screenshots/responsive.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
