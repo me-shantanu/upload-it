@@ -22,10 +22,9 @@
 4. [Features](#features)
 5. [Screenshots](#screenshots)
 6. [Performance](#performance)
-7. [Video Walkthrough](#video-walkthrough)
-8. [Local Setup](#local-setup)
-9. [Testing](#testing)
-10. [Developer](#developer)
+7. [Local Setup](#local-setup)
+8. [Testing](#testing)
+9. [Developer](#developer)
 
 ---
 
@@ -76,7 +75,10 @@
 >   ![Dashboard](./public/screenshots/dashbord.png)
 > - Dashboard with file stats
 >   ![Dashboard Feature](./public/screenshots/dashboard.png)
+> - Responsive Design
+>   ![Responsive Design](./public/screenshots/responsive.mov)
 
+---
 ## 📈 Performance
 
 **Lighthouse Audit Scores:**
@@ -94,15 +96,6 @@
 - Semantic HTML & Accessibility Tags
 
 > A full Lighthouse report PDF is available in the `docs/` folder or can be reproduced using Chrome DevTools.
-
----
-
-## 🎥 Video Walkthrough
-
-A short video demo walking through the app, major features, and code structure.
-
-**Watch here:**  
-[https://youtu.be/your-demo-link](https://youtu.be/your-demo-link)
 
 ---
 
